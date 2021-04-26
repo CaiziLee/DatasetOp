@@ -16,7 +16,7 @@ The data is builded as a dict type through all steps:
 - data item: {'data': ndarray, 'seg': ndarray, 'properties': dict, everything you want to keep}
 - data batch: {'data': ndarray, 'seg': ndarray, 'indices': list, 'properties': dict, everything you want to keep},
 
-# Reference
+# Installation
 - [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
 - [batchgenerators](https://github.com/MIC-DKFZ/batchgenerators)
 - [medpy](https://github.com/loli/medpy)
