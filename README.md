@@ -19,3 +19,4 @@ The data is builded as a dict type through all steps:
 # Reference
 - [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
 - [batchgenerators](https://github.com/MIC-DKFZ/batchgenerators)
+- [medpy](https://github.com/loli/medpy)
