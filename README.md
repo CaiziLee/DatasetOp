@@ -8,7 +8,7 @@ It contains four parts, [nnUNet](https://github.com/MIC-DKFZ/nnUNet) and [batchg
 - DataAugmenter: automatically perform data augmentation for 2D/3D data.
 
 How to use(details can be obtained from the code, it is really really simple):
-Take Synapse Abdomen dataset[https://www.synapse.org/#!Synapse:syn3193805/wiki/217789] as an example,
+Take [Synapse Abdomen dataset](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) as an example,
 - 1, build a dataset config class in DatasetCfg, define everything you need, such as data path, etc.
 - 2, build a custom Dataset class inherited from Dataset, define the rules of reading a data item (def __getitem__(self, item))
 
