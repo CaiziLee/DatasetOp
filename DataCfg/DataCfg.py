@@ -62,8 +62,8 @@ default_2D_augmentation_params["mirror_axes"] = (0, 1)  # this can be (0, 1, 2) 
 class SynapseAbdomenCfg(object):
     def __init__(self):
         super().__init__()
-        self.img_data_root = '/home/licaizi/DataSet/Synapse_Multi_Organ_Abdomen/Abdomen/RawData/Training/img'
-        self.lbl_data_root = '/home/licaizi/DataSet/Synapse_Multi_Organ_Abdomen/Abdomen/RawData/Training/label'
+        self.img_data_root = '/home/xxx/DataSet/Synapse_Multi_Organ_Abdomen/Abdomen/RawData/Training/img'
+        self.lbl_data_root = '/home/xxx/DataSet/Synapse_Multi_Organ_Abdomen/Abdomen/RawData/Training/label'
         self.img_fname_list, self.lbl_fname_list = self.__data_list(join=False)
         self.img_path_list, self.lbl_path_list = self.__data_list(join=True)
 
